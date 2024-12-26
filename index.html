@@ -1,90 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca do Dao</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #fff;
-      background-color: #000;
-    }
-    header {
-      text-align: center;
-      background-color: #222;
-      padding: 20px;
-    }
-    header img {
-      max-width: 100%;
-      height: auto;
-    }
-    h1 {
-      color: #FFD700;
-      margin: 20px 0;
-    }
-    section {
-      padding: 20px;
-      text-align: center;
-    }
-    .topic {
-      margin-top: 30px;
-      border-top: 1px solid #444;
-      padding-top: 20px;
-    }
-    .links a {
-      display: block;
-      margin: 10px 5px;
-      color: #FFD700;
-      text-decoration: none;
-    }
-    .links a:hover {
-      color: #FFA500;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca do Dao</title>
+    <style>
+        /* Definir margens e preenchimento para todos os elementos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo do corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Estilo para o cabeçalho (imagem) */
+        header img {
+            width: 100%;  /* A imagem ocupa toda a largura da tela */
+            height: auto; /* A altura será proporcional à largura */
+        }
+
+        /* Estilo do título da página */
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5em;
+        }
+
+        /* Estilo para a seção 'Sobre' */
+        .sobre {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilo para as seções de mundos */
+        section {
+            margin: 20px 0;
+            padding: 10px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        section ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        section ul li {
+            margin: 10px 0;
+        }
+
+        section ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        section ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <!-- Topo -->
-  <header>
-    <img src="https://raw.githubusercontent.com/NebulosaPx01/RoseLibrary-/refs/heads/main/e7bdc2e12df24d236f42c8b0d1274882.jpg" alt="Imagem do topo">
-    <h1>Biblioteca do Dao</h1>
-  </header>
+    <!-- Imagem no topo -->
+    <header>
+        <img src="https://github.com/NebulosaPx01/RoseLibrary-/raw/d1887ad5bea011d25759268c4ddaa1ebd716e4de/e7bdc2e12df24d236f42c8b0d1274882.jpg" alt="Imagem do topo">
+    </header>
 
-  <!-- Sobre -->
-  <section class="topic">
-    <h2>Sobre</h2>
-    <p>Um projeto feito de fã para fã. <br>By: Rose</p>
-  </section>
+    <!-- Texto abaixo da imagem -->
+    <main>
+        <h1>Biblioteca do Dao</h1>
+        <section class="sobre">
+            <h2>Sobre</h2>
+            <p>Explicando que é um projeto feito de fã para fã, by: Rose</p>
+        </section>
 
-  <!-- Mundo Mortal -->
-  <section class="topic">
-    <h2>Mundo Mortal</h2>
-    <div class="links">
-      <a href="mortal-guias.html">Guias</a>
-      <a href="mortal-skills.html">Skills</a>
-      <a href="mortal-casting.html">Casting Orders</a>
-    </div>
-  </section>
+        <!-- Outros tópicos -->
+        <section class="mortal-world">
+            <h2>Mundo Mortal</h2>
+            <ul>
+                <li><a href="mortal-guias.html">Guias</a></li>
+                <li><a href="mortal-skills.html">Skills</a></li>
+                <li><a href="mortal-casting.html">Casting Orders</a></li>
+            </ul>
+        </section>
 
-  <!-- Mundo Espiritual -->
-  <section class="topic">
-    <h2>Mundo Espiritual</h2>
-    <div class="links">
-      <a href="spiritual-guias.html">Guias</a>
-      <a href="spiritual-skills.html">Skills</a>
-      <a href="spiritual-casting.html">Casting Orders</a>
-    </div>
-  </section>
+        <section class="spiritual-world">
+            <h2>Mundo Espiritual</h2>
+            <ul>
+                <li><a href="spiritual_world_guias.html">Guias</a></li>
+                <li><a href="spiritual_world_skills.html">Skills</a></li>
+                <li><a href="spiritual_world_casting_orders.html">Casting Orders</a></li>
+            </ul>
+        </section>
 
-  <!-- Mundo Imortal -->
-  <section class="topic">
-    <h2>Mundo Imortal</h2>
-    <div class="links">
-      <a href="immortal-guias.html">Guias</a>
-      <a href="immortal-skills.html">Skills</a>
-      <a href="immortal-casting.html">Casting Orders</a>
-    </div>
-  </section>
+        <section class="immortal-world">
+            <h2>Mundo Imortal</h2>
+            <ul>
+                <li><a href="immortal_world_guias.html">Guias</a></li>
+                <li><a href="immortal_world_skills.html">Skills</a></li>
+                <li><a href="immortal_world_casting_orders.html">Casting Orders</a></li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
